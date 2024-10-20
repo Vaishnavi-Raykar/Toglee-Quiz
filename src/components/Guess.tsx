@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslate } from '@tolgee/react';
 
-
 interface GuessInterface {
   capital: string;
   handleAnswer: (capital: string) => void;
