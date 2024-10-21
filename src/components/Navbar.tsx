@@ -3,8 +3,9 @@ import { LangSelector } from './LangSelector';
 
 export const Navbar = ({ t, children }: { t: any; children?: React.ReactNode }) => {
   return (
-    <nav className="bg-[#0f1525] text-white fixed top-0  w-full justify-center items-center shadow-xl z-50">
-      <div className="sm:px-6 lg:px-8">
+    <nav className='bg-[#0f1525] top-0 sticky z-50'>
+{/* <nav className="bg-[#0f1525] text-white fixed top-0 w-full justify-center items-center shadow-xl z-50"> */}
+<div className="sm:px-6 lg:px-8">
         <div className="flex justify-between items-center  h-20">
           <div className="flex items-center">
             <div className="text-2xl font-bold flex color-white items-center gap-5">
